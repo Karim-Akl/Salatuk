@@ -1,0 +1,39 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+}
+.main-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+  color: rgb(234, 224, 224);
+}
+.prayers-time {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+}
+
+.place,
+.next-prayer-time {
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.places {
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  margin: 15px;
+}
+select:not(.select-country) {
+  width: 30%;
+}
